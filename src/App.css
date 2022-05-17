@@ -1,0 +1,45 @@
+body{
+  background-color: aqua;
+}
+
+.lightMode{
+  width: 400px;
+  height: 400px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 10px 20px;
+  line-height: 1.5em;
+}
+.darkMode{
+  width: 400px;
+  height: 400px;
+  margin: 40px auto;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  line-height: 1.5em;
+}
+.lightOff{
+  color:rgb(171, 171, 171);
+}
+.Navbar, .Navbar>div{
+  display: flex;
+  justify-content:space-between;
+}
+img{
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+}
+.btn{
+  margin: 15px 10px;
+  font-size: 20px;
+}
+.toggle{
+  margin: 5px 10px;
+  font-size: small;
+}
+.toggle:hover{
+  
+  cursor: pointer;
+}
